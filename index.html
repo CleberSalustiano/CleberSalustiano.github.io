@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      data-i18n-content="meta.description"
+      content="Portfólio de Cleber de Jesus Salustiano, Engenheiro de Software com foco em backend, arquitetura de soluções, serverless na AWS, orquestração de eventos e plataformas escaláveis."
+    />
+    <meta name="theme-color" content="#0b1014" />
+    <meta
+      property="og:title"
+      data-i18n-content="meta.ogTitle"
+      content="Cleber Salustiano | Engenheiro de Software e Arquiteto de Soluções"
+    />
+    <meta
+      property="og:description"
+      data-i18n-content="meta.ogDescription"
+      content="Engenheiro de Software com experiência em arquitetura de soluções, backend serverless na AWS, liderança técnica e pesquisa aplicada em IA."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero-workspace.png" />
+    <title data-i18n="meta.title">Cleber Salustiano | Engenheiro de Software e Arquiteto de Soluções</title>
+    <link rel="icon" href="assets/cleber-avatar.png" />
+    <link rel="preload" as="image" href="assets/hero-workspace.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo" data-i18n="skipLink">Ir para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#topo" data-i18n-aria-label="aria.home">
+        <span class="brand-mark">CS</span>
+        <span>Cleber Salustiano</span>
+      </a>
+
+      <div class="header-actions">
+        <nav class="site-nav" data-nav data-i18n-aria-label="aria.mainNav">
+          <a href="#sobre" data-i18n="nav.about">Sobre</a>
+          <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+          <a href="#experiencia" data-i18n="nav.experience">Experiência</a>
+          <a href="#formacao" data-i18n="nav.education">Formação</a>
+          <a href="#contato" data-i18n="nav.contact">Contato</a>
+        </nav>
+
+        <div class="lang-toggle" role="group" data-i18n-aria-label="aria.languageToggle">
+          <button class="lang-button is-active" type="button" data-lang-option="pt" aria-pressed="true">PT</button>
+          <button class="lang-button" type="button" data-lang-option="en" aria-pressed="false">EN</button>
+        </div>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" data-nav-toggle>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="topo" aria-labelledby="hero-title">
+        <img class="hero-bg" src="assets/hero-workspace.png" alt="" aria-hidden="true" />
+        <div class="hero-overlay"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">
+              Engenheiro de Software · Arquitetura de Soluções · AWS Serverless
+            </p>
+            <h1 id="hero-title">Cleber de Jesus Salustiano</h1>
+            <p class="hero-lead" data-i18n="hero.lead">
+              Desenho e evoluo plataformas backend, arquiteturas serverless na AWS, integrações orientadas a
+              eventos e fluxos de entrega que transformam requisitos complexos em software sustentável,
+              observável e pronto para escalar.
+            </p>
+            <div class="hero-actions" data-i18n-aria-label="aria.heroActions">
+              <a class="button primary" href="#projetos" data-i18n="hero.primaryCta">Ver projetos</a>
+              <a class="button secondary" href="mailto:kleberdejesus45@hotmail.com" data-i18n="hero.secondaryCta">
+                Entrar em contato
+              </a>
+            </div>
+          </div>
+
+          <aside class="profile-card" data-i18n-aria-label="aria.profileCard">
+            <img
+              src="assets/cleber-avatar.png"
+              alt="Foto de Cleber Salustiano"
+              data-i18n-alt="aria.avatar"
+            />
+            <div>
+              <strong data-i18n="hero.profileTitle">
+                Engenharia de software com foco em arquitetura de soluções, plataformas serverless na AWS e evolução técnica orientada a escala.
+              </strong>
+              <span data-i18n="hero.profileMeta">Serra, Espírito Santo · Inglês profissional</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="stats-band" data-reveal-group data-i18n-aria-label="aria.statsBand">
+        <div class="stat" data-reveal>
+          <strong>2021+</strong>
+          <span data-i18n="stats.first">Atuação contínua em engenharia de software</span>
+        </div>
+        <div class="stat" data-reveal>
+          <strong>+35</strong>
+          <span data-i18n="stats.second">Repositórios públicos e estudos aplicados no GitHub</span>
+        </div>
+        <div class="stat" data-reveal>
+          <strong data-i18n="stats.thirdValue">AWS Serverless</strong>
+          <span data-i18n="stats.third">Eventos, integrações, bancos relacionais e não relacionais</span>
+        </div>
+        <div class="stat" data-reveal>
+          <strong data-i18n="stats.fourthValue">IA aplicada</strong>
+          <span data-i18n="stats.fourth">
+            Estudante pesquisador de IA com foco em aplicabilidade em computação aplicada
+          </span>
+        </div>
+      </section>
+
+      <section class="tech-marquee" data-i18n-aria-label="aria.techMarquee">
+        <div class="tech-track" data-tech-track></div>
+      </section>
+
+      <section class="section split-section" id="sobre" aria-labelledby="sobre-title" data-reveal-group>
+        <div>
+          <p class="section-kicker" data-i18n="about.kicker">Posicionamento</p>
+          <h2 id="sobre-title" data-reveal data-i18n="about.title">
+            Atuo na interseção entre engenharia de software, arquitetura de soluções e delivery técnico.
+          </h2>
+        </div>
+        <div class="section-copy" data-reveal>
+          <p data-i18n="about.first">
+            Minha atuação atual está concentrada em backend com Node.js, NestJS, Express e soluções
+            serverless na AWS, desenhando contratos, integrações, orquestração de eventos e decisões
+            estruturais para sistemas que precisam escalar com clareza técnica.
+          </p>
+          <p data-i18n="about.second">
+            Também atuo com React, Next.js, Angular, Vue, React Native e Flutter quando a solução pede visão
+            ponta a ponta. Em paralelo, sigo como estudante pesquisador de IA, buscando aplicabilidade de IA
+            em computação aplicada e conectando pesquisa com problemas reais de software.
+          </p>
+        </div>
+      </section>
+
+      <section class="section capability-section" aria-labelledby="competencias-title" data-reveal-group>
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker" data-i18n="capabilities.kicker">Áreas de atuação</p>
+          <h2 id="competencias-title" data-i18n="capabilities.title">
+            Desenho técnico e execução com foco em sistemas duráveis.
+          </h2>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability interactive-card" data-reveal>
+            <span class="capability-icon" aria-hidden="true" data-i18n="capabilities.arch.icon">ARC</span>
+            <h3 data-i18n="capabilities.arch.title">Arquitetura de soluções</h3>
+            <p data-i18n="capabilities.arch.description">
+              Definição de domínios, contratos, boundaries, integrações, padrões e decisões estruturais para
+              sistemas distribuídos.
+            </p>
+          </article>
+          <article class="capability interactive-card" data-reveal>
+            <span class="capability-icon" aria-hidden="true" data-i18n="capabilities.backend.icon">BE</span>
+            <h3 data-i18n="capabilities.backend.title">Plataformas backend</h3>
+            <p data-i18n="capabilities.backend.description">
+              Node.js, NestJS, Express, Java, Spring Boot, AWS Serverless, orquestração de eventos e
+              persistência com bancos relacionais e não relacionais.
+            </p>
+          </article>
+          <article class="capability interactive-card" data-reveal>
+            <span class="capability-icon" aria-hidden="true" data-i18n="capabilities.apps.icon">APP</span>
+            <h3 data-i18n="capabilities.apps.title">Aplicações e experiência</h3>
+            <p data-i18n="capabilities.apps.description">
+              React, Next.js, Angular, Vue, React Native e Flutter para interfaces e fluxos conectados ao
+              core do negócio.
+            </p>
+          </article>
+          <article class="capability interactive-card" data-reveal>
+            <span class="capability-icon" aria-hidden="true" data-i18n="capabilities.quality.icon">QLT</span>
+            <h3 data-i18n="capabilities.quality.title">Qualidade e liderança técnica</h3>
+            <p data-i18n="capabilities.quality.description">
+              Playwright, Cypress, Jest, documentação, mentoria, refinamentos e evolução contínua da forma de
+              entregar.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section" aria-labelledby="fluxo-title" data-reveal-group>
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker" data-i18n="workflow.kicker">Método</p>
+          <h2 id="fluxo-title" data-i18n="workflow.title">Como conduzo arquitetura, entrega e evolução.</h2>
+          <p data-i18n="workflow.description">
+            Um fluxo pensado para alinhar contexto de negócio, desenho técnico, confiabilidade operacional e
+            autonomia do time.
+          </p>
+        </div>
+
+        <div class="workflow" data-i18n-aria-label="aria.workflow">
+          <article class="workflow-step interactive-card" data-reveal>
+            <span>01</span>
+            <h3 data-i18n="workflow.discovery.title">Leitura do contexto</h3>
+            <p data-i18n="workflow.discovery.description">
+              Entendo objetivos, regras, restrições, integrações e sinais de risco antes de propor a
+              arquitetura.
+            </p>
+          </article>
+          <article class="workflow-step interactive-card" data-reveal>
+            <span>02</span>
+            <h3 data-i18n="workflow.architecture.title">Arquitetura alvo</h3>
+            <p data-i18n="workflow.architecture.description">
+              Estruturo domínios, contratos, dados, responsabilidades e fronteiras para sustentar evolução.
+            </p>
+          </article>
+          <article class="workflow-step interactive-card" data-reveal>
+            <span>03</span>
+            <h3 data-i18n="workflow.execution.title">Implementação</h3>
+            <p data-i18n="workflow.execution.description">
+              Construo APIs, aplicações e integrações com código legível, rastreável e orientado a operação.
+            </p>
+          </article>
+          <article class="workflow-step interactive-card" data-reveal>
+            <span>04</span>
+            <h3 data-i18n="workflow.reliability.title">Confiabilidade</h3>
+            <p data-i18n="workflow.reliability.description">
+              Uso testes, automação, documentação e validação para proteger comportamento e reduzir ruído.
+            </p>
+          </article>
+          <article class="workflow-step interactive-card" data-reveal>
+            <span>05</span>
+            <h3 data-i18n="workflow.evolution.title">Escala e evolução</h3>
+            <p data-i18n="workflow.evolution.description">
+              Observo métricas, removo gargalos e ajudo o time a ganhar maturidade técnica de forma contínua.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projetos" aria-labelledby="projetos-title" data-reveal-group>
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker" data-i18n="projects.kicker">Projetos selecionados</p>
+          <h2 id="projetos-title" data-i18n="projects.title">
+            Projetos que evidenciam arquitetura, entrega e profundidade técnica.
+          </h2>
+          <p data-i18n="projects.description">
+            Uma curadoria de repositórios públicos que mostra plataformas completas, serviços backend,
+            integrações de produto e fundamentos de computação.
+          </p>
+        </div>
+
+        <div class="featured-project interactive-card" data-reveal>
+          <div class="project-media">
+            <img
+              src="assets/churchapp-portal.png"
+              alt="Tela do portal do ChurchAPP"
+              data-i18n-alt="aria.churchPortal"
+            />
+          </div>
+          <div class="project-content">
+            <p class="project-label" data-i18n="projects.featured.label">Case principal</p>
+            <h3>ChurchAPP</h3>
+            <p data-i18n="projects.featured.description">
+              Plataforma de gestão e operações para igrejas com separação clara entre API e frontend,
+              modelagem de permissões por escopo, fluxos financeiros e desenho orientado a governança.
+            </p>
+            <ul class="project-points">
+              <li data-i18n="projects.featured.pointOne">
+                API documentada com Swagger, autenticação estruturada e autorização baseada em atribuições
+                ativas.
+              </li>
+              <li data-i18n="projects.featured.pointTwo">
+                Arquitetura dividida entre backend e web, com setup local orquestrado por Docker e scripts.
+              </li>
+              <li data-i18n="projects.featured.pointThree">
+                Fluxos de gestão de membros, congregações, serviços, ofertas, despesas e operação financeira.
+              </li>
+            </ul>
+            <div class="tag-list">
+              <span>TypeScript</span>
+              <span>Next.js</span>
+              <span>Express</span>
+              <span>Prisma</span>
+              <span>PostgreSQL</span>
+              <span>Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/CleberSalustiano/ChurchAPP" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card interactive-card" data-reveal>
+            <div class="project-card-image">
+              <img
+                src="assets/todo-list.png"
+                alt="Captura de tela da aplicação Todo List"
+                data-i18n-alt="aria.todoImage"
+              />
+            </div>
+            <div class="project-card-body">
+              <span class="project-label" data-i18n="projects.todo.label">Aplicação full-stack</span>
+              <h3>Todo List</h3>
+              <p data-i18n="projects.todo.description">
+                Aplicação full-stack com separação de camadas, ciclo de desenvolvimento com Docker, validação
+                automatizada e deploy em plataformas distintas para frontend e backend.
+              </p>
+              <div class="tag-list">
+                <span>TypeScript</span>
+                <span>Vite</span>
+                <span>Docker</span>
+                <span>Jest</span>
+                <span>Cypress</span>
+              </div>
+              <div class="project-links">
+                <a href="https://todo-list-xi-black-66.vercel.app/" target="_blank" rel="noreferrer" data-i18n="common.demo">
+                  Demo
+                </a>
+                <a href="https://github.com/CleberSalustiano/todo-list" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card code-card interactive-card" data-reveal>
+            <div class="code-window" aria-hidden="true">
+              <span>POST /shorten</span>
+              <span>PrismaService.connect()</span>
+              <span>SwaggerModule.setup()</span>
+              <span>npm run test</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-label" data-i18n="projects.urlShortener.label">Serviço backend</span>
+              <h3>URL Shortener</h3>
+              <p data-i18n="projects.urlShortener.description">
+                Serviço em NestJS e TypeScript para encurtamento de URLs, com organização voltada a módulos,
+                documentação de API e base pronta para evolução operacional.
+              </p>
+              <div class="tag-list">
+                <span>NestJS</span>
+                <span>TypeScript</span>
+                <span>Prisma</span>
+                <span>Swagger</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/CleberSalustiano/url-shortener" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card code-card interactive-card" data-reveal>
+            <div class="code-window python" aria-hidden="true">
+              <span>λ&gt; :load church.lam</span>
+              <span>(λx.x) value</span>
+              <span>nome: expressão</span>
+              <span>Ctrl + D</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-label" data-i18n="projects.lambda.label">Fundamentos de linguagem</span>
+              <h3>Lambda Calculus Interpreter</h3>
+              <p data-i18n="projects.lambda.description">
+                Interpretador em Python que evidencia fundamentos de linguagem, parsing e execução simbólica,
+                reforçando profundidade em ciência da computação.
+              </p>
+              <div class="tag-list">
+                <span>Python</span>
+                <span>CLI</span>
+                <span>Parsers</span>
+                <span>Lambda Calculus</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/CleberSalustiano/lambda-calculus-interpreter" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card code-card interactive-card" data-reveal>
+            <div class="code-window finance" aria-hidden="true">
+              <span>getDashboardData(monthYear)</span>
+              <span>readSheet('Saidas')</span>
+              <span>saldo = totalRenda - totalSaidas - totalParcelas</span>
+              <span>Chart.js + Google Sheets API</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-label" data-i18n="projects.financas.label">Produto financeiro</span>
+              <h3>Financas App</h3>
+              <p data-i18n="projects.financas.description">
+                Sistema web de gestão financeira pessoal com dashboard, registro de renda e saídas, controle
+                de compras parceladas e integração com Google Sheets como camada de persistência.
+              </p>
+              <div class="tag-list">
+                <span>React</span>
+                <span>Tailwind</span>
+                <span>Chart.js</span>
+                <span>Google Sheets API</span>
+                <span>Vite</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/CleberSalustiano/financas" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="experiencia" aria-labelledby="experiencia-title" data-reveal-group>
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker" data-i18n="experience.kicker">Experiência</p>
+          <h2 id="experiencia-title" data-i18n="experience.title">
+            Experiência em engenharia, arquitetura e liderança técnica.
+          </h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-date" data-i18n="experience.gft.period">Nov 2025 · Atual</span>
+            <div>
+              <h3 data-i18n="experience.gft.role">Engenheiro de Software Backend · GFT Technologies</h3>
+              <p data-i18n="experience.gft.description">
+                Atuação em backend com foco em soluções serverless na AWS, orquestração de eventos, dados
+                relacionais e não relacionais, além de evolução técnica de plataformas.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-date" data-i18n="experience.ifesExternal.period">Mar 2025 · Atual</span>
+            <div>
+              <h3 data-i18n="experience.ifesExternal.role">Desenvolvedor de Software Externo · IFES</h3>
+              <p data-i18n="experience.ifesExternal.description">
+                Desenvolvimento de plataforma web integrada ao gov.br e ao sistema acadêmico, conectando
+                frontend em Angular, serviços em Spring Boot e fluxos institucionais.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-date" data-i18n="experience.codenapp.period">Abr 2023 · Nov 2025</span>
+            <div>
+              <h3 data-i18n="experience.codenapp.role">Engenheiro de Software Sênior / Líder Técnico · Code n'App</h3>
+              <p data-i18n="experience.codenapp.description">
+                Liderança técnica em produtos críticos, decisões arquiteturais, mentoria, estruturação de
+                processos e gestão interina de times de Front-end e UX/UI.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-date" data-i18n="experience.directy.period">Nov 2022 · Abr 2023</span>
+            <div>
+              <h3 data-i18n="experience.directy.role">Desenvolvedor Full-stack Júnior · Directy</h3>
+              <p data-i18n="experience.directy.description">
+                Entrega full-stack para soluções ERP e agronegócio, com definição de padrões arquiteturais
+                para web e backend, além de workshop técnico para o time.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-date" data-i18n="experience.ifesCore.period">Nov 2021 · Dez 2024</span>
+            <div>
+              <h3 data-i18n="experience.ifesCore.role">Analista de Sistemas / Desenvolvedor Full-stack · IFES</h3>
+              <p data-i18n="experience.ifesCore.description">
+                Análise de sistema, integrações e aplicações institucionais com Java, Spring Boot, JSF e bancos
+                relacionais, conectando operação diária e evolução do software.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education-section" id="formacao" aria-labelledby="formacao-title" data-reveal-group>
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker" data-i18n="education.kicker">Formação</p>
+          <h2 id="formacao-title" data-i18n="education.title">
+            Formação que sustenta engenharia de software e pesquisa aplicada em IA.
+          </h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="interactive-card" data-reveal>
+            <span data-i18n="education.master.period">2025 · Em andamento</span>
+            <h3 data-i18n="education.master.title">Mestrado em Computação Aplicada</h3>
+            <p data-i18n="education.master.description">
+              Instituto Federal do Espírito Santo · Estudante pesquisador de IA com foco em aplicabilidade em
+              computação aplicada
+            </p>
+          </article>
+          <article class="interactive-card" data-reveal>
+            <span data-i18n="education.bachelor.period">2020 · 2024</span>
+            <h3 data-i18n="education.bachelor.title">Bacharelado em Sistemas de Informação</h3>
+            <p data-i18n="education.bachelor.description">
+              Instituto Federal do Espírito Santo · Engenharia de Software
+            </p>
+          </article>
+          <article class="interactive-card" data-reveal>
+            <span data-i18n="education.technical.period">2017 · 2021</span>
+            <h3 data-i18n="education.technical.title">Técnico Integrado em Eletrotécnica</h3>
+            <p data-i18n="education.technical.description">Instituto Federal do Espírito Santo</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contato-title" data-reveal-group>
+        <div class="contact-inner">
+          <div data-reveal>
+            <p class="section-kicker" data-i18n="contact.kicker">Contato</p>
+            <h2 id="contato-title" data-i18n="contact.title">
+              Vamos conversar sobre plataformas, arquitetura de soluções e evolução técnica.
+            </h2>
+            <p data-i18n="contact.description">
+              Estou aberto a oportunidades e conversas sobre software engineering, solution architecture,
+              liderança técnica e aplicabilidade de IA em produtos e operações.
+            </p>
+          </div>
+          <div class="contact-actions" data-reveal data-i18n-aria-label="aria.contactActions">
+            <a class="button primary" href="mailto:kleberdejesus45@hotmail.com" data-i18n="contact.email">
+              Enviar e-mail
+            </a>
+            <a
+              class="button secondary"
+              href="https://www.linkedin.com/in/clebersalustiano"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact.linkedin"
+            >
+              LinkedIn
+            </a>
+            <a
+              class="button secondary"
+              href="https://github.com/CleberSalustiano"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact.github"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span data-year></span> Cleber de Jesus Salustiano</span>
+      <a href="#topo" data-i18n="footer.backToTop">Voltar ao topo</a>
+    </footer>
+  </body>
+</html>
