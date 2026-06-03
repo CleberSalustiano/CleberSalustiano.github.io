@@ -637,6 +637,23 @@ languageButtons.forEach((button) => {
 const preferredLanguage = loadLanguagePreference() ?? defaultLanguage;
 applyTranslations(preferredLanguage);
 
+const revealItemsInInitialViewport = () => {
+  if (window.innerWidth <= 760) {
+    return;
+  }
+
+  const revealThreshold = window.innerHeight * 1.04;
+
+  revealItems.forEach((item) => {
+    const { top } = item.getBoundingClientRect();
+    if (top <= revealThreshold) {
+      item.classList.add("is-visible");
+    }
+  });
+};
+
+revealItemsInInitialViewport();
+
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
     (entries, observer) => {
