@@ -41,7 +41,7 @@ const translations = {
       secondaryCta: "Entrar em contato",
       profileTitle:
         "Engenharia de software com foco em arquitetura de soluções, plataformas serverless na AWS e evolução técnica orientada a escala.",
-      profileMeta: "Serra, Espírito Santo · Inglês profissional",
+      profileMeta: "Serra, Espírito Santo",
     },
     stats: {
       first: "Atuação contínua em engenharia de software",
@@ -280,7 +280,7 @@ const translations = {
       primaryCta: "View projects",
       secondaryCta: "Get in touch",
       profileTitle: "Software engineering focused on solution architecture, AWS serverless platforms, and technical evolution built for scale.",
-      profileMeta: "Serra, Espirito Santo · Professional working English",
+      profileMeta: "Serra, Espirito Santo",
     },
     stats: {
       first: "Continuous work in software engineering since 2021",
